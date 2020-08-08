@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import ToDoForm from './ToDoForm';
 import ToDoList from './ToDoList';
 import Container from 'react-bootstrap/Container';
-import SettingsContext from '../SettingsContext';
+import {SettingsContext} from '../SettingsContext';
 import SettingsForm from './SettingsForm';
 
 import useFetch from '../hooks/useFetch';

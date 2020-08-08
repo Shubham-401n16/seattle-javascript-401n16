@@ -1,5 +1,5 @@
 import React, { useContext } from 'react';
-import SettingsContext from '../SettingsContext';
+import {SettingsContext} from '../SettingsContext';
 
 function SettingsForm(props) {
     const data = useContext(SettingsContext);
